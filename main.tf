@@ -19,7 +19,7 @@ resource "random_integer" "ri" {
 
 resource "azurerm_resource_group" "rg" {
   name     = var.resource_group_name
-  location = "West Europe"
+  location = "North Europe"
 }
 
 resource "azurerm_service_plan" "service_plan" {
